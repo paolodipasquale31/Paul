@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#risultato {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}

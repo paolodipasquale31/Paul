@@ -1,28 +1,38 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    text-align: center;
-    margin-top: 60px;
+/* CSS Code for Book Inventory */
+/* Using attribute selectors */
+
+/* Styling for book title */
+.book[title] {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-h1 {
-    color: #333;
-}
-
-input {
-    padding: 8px;
+/* Styling for author */
+.book[author] {
     font-size: 16px;
+    font-style: italic;
 }
 
-button {
-    padding: 8px 12px;
-    font-size: 16px;
-    margin-left: 5px;
-    cursor: pointer;
+/* Styling for publication year */
+.book[year] {
+    color: gray;
+    font-size: 14px;
 }
 
-#risultato {
-    margin-top: 20px;
-    font-size: 18px;
+/* Styling for genre */
+.book[genre] {
+    text-transform: uppercase;
+    color: blue;
+}
+
+/* Styling for price */
+.book[price] {
     color: green;
+    font-weight: bold;
+}
+
+/* Styling for availability */
+.book[available] {
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
 }
